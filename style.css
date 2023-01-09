@@ -1,0 +1,182 @@
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+}
+
+.one {
+  background-color: #2a353b;
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(43 52 59);
+  height: 28rem;
+  width: 20rem;
+  border-radius: 50% 50% 41px 41px;
+  box-shadow: 0px 23px 31px black;
+}
+
+.three {
+  background-color: rgb(43 52 59);
+
+  height: 20rem;
+  width: 20rem;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 94px black;
+}
+
+div {
+  font-size: 1.4rem;
+  color: white;
+}
+
+.circle1 {
+  position: absolute;
+  top: 11.5rem;
+
+  background-color: black;
+
+  height: 15rem;
+  width: 15rem;
+  border-radius: 100%;
+}
+
+.circle2 {
+  position: absolute;
+  top: 11.7rem;
+  background-color: rgb(43 52 59);
+
+  height: 14.58rem;
+  width: 14.58rem;
+  border-radius: 100%;
+}
+
+.circle3 {
+  position: absolute;
+  top: 13.5rem;
+  background-color: black;
+
+  height: 10.5rem;
+  width: 10.5rem;
+  border-radius: 100%;
+}
+
+.circle4 {
+  position: absolute;
+  top: 13.8rem;
+  background-color: rgb(43 52 59);
+
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100%;
+}
+
+.center {
+  position: absolute;
+  top: 18.5rem;
+  background-color: white;
+
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+}
+
+.center1 {
+  position: absolute;
+  top: 18.6rem;
+  background-color: rgb(7, 2, 2);
+
+  height: 0.3rem;
+  width: 0.3rem;
+  border-radius: 100%;
+}
+
+.hour {
+  background-color: pink;
+  height: 7px;
+  width: 36px;
+  position: absolute;
+  top: 17.7rem;
+  left: 45.8rem;
+  rotate: 37deg;
+}
+
+.minute {
+  background-color: yellow;
+  height: 5px;
+  width: 44px;
+  position: absolute;
+  top: 20.1rem;
+  rotate: 92deg;
+}
+
+.sec {
+  background-color: green;
+  height: 4px;
+  width: 60px;
+  position: absolute;
+  top: 17.5rem;
+  left: 48rem;
+  rotate: 150deg;
+}
+
+.four {
+  position: absolute;
+  height: 3rem;
+  width: 15rem;
+  background-color: rgb(43 52 59);
+  top: 32rem;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 38px;
+  box-shadow: 0px 0px 28px black;
+}
+
+.pink {
+  position: absolute;
+  top: 14.5rem;
+  left: 41.7rem;
+  background-color: pink;
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 100%;
+}
+
+.yellow {
+  position: absolute;
+  top: 23.6rem;
+  background-color: yellow;
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 100%;
+}
+
+.green {
+  position: absolute;
+  top: 15.3rem;
+  left: 54.4rem;
+  background-color: green;
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 100%;
+}
